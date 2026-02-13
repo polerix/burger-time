@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Donair Time</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas"></canvas>
+        <div id="ui-layer">
+            <div id="score-board">
+                <span>SCORE: <span id="score">0</span></span>
+                <span>HI-SCORE: <span id="hi-score">20000</span></span>
+            </div>
+            <div id="mobile-controls">
+                <div class="d-pad">
+                    <button id="btn-up" class="d-btn">▲</button>
+                    <button id="btn-left" class="d-btn">◀</button>
+                    <button id="btn-right" class="d-btn">▶</button>
+                    <button id="btn-down" class="d-btn">▼</button>
+                </div>
+                <div class="action-btn">
+                    <button id="btn-pepper" class="a-btn">🌶️</button>
+                </div>
+            </div>
+        </div>
+        <div id="start-screen">
+            <h1>DONAIR TIME</h1>
+            <div id="high-score-list">
+                <h3>HIGH SCORES</h3>
+                <ol>
+                    <li>AAA - 20000</li>
+                    <li>BBB - 15000</li>
+                    <li>CCC - 10000</li>
+                    <li>DDD - 5000</li>
+                    <li>EEE - 1000</li>
+                </ol>
+            </div>
+            <button id="start-btn">INSERT COIN</button>
+        </div>
+    </div>
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+
+</html>
